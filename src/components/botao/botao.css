@@ -1,0 +1,24 @@
+button{
+    width: 50%;
+    border: none;
+    height: 3em;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8em;
+    margin-top: 20px;
+    background-color: rgb(158, 52, 52);
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    transition: all .2s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
